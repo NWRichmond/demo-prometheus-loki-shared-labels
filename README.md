@@ -1,4 +1,4 @@
-# Labels Cross Reference for Prometheus & Loki
+# Prometheus & Loki with shared labels
 
 This project creates Prometheus and Loki instances that share some common labels.
 
