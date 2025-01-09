@@ -1,0 +1,7 @@
+groups:
+  - name: sample_rules
+    interval: 1m
+    rules:
+      - record: demo_app:log_rate:5m
+        expr: |
+          sum by (service_name) (rate({service_name="demo-app"}[5m]))
